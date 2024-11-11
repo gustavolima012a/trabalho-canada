@@ -1,0 +1,110 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #050d18;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos do header */
+header {
+    background-color: #0a1a30;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Alinha a imagem ao centro do cabeçalho */
+    align-items: center;     /* Alinha verticalmente a imagem */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+nav ul li a:hover {
+    color: #e3b341;
+}
+
+/* Estilos da seção "sobre nós" */
+.sobre-nos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #0e1b2b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #7caaff33;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto; /* Centralizando a box */
+}
+
+.container {
+    width: 60%;
+    padding-right: 30px;
+}
+
+h1 {
+    font-family: "Biryani", sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.conteudo {
+    margin-top: 20px;
+}
+
+.texto p {
+    font-size: 1.1rem;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.imagem-container {
+    width: 35%;
+}
+
+.imagem-container img {
+    width: 100%;
+    height: 30rem;
+    border-radius: 8px;
+}

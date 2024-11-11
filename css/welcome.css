@@ -1,0 +1,129 @@
+/* Estilo geral do body */
+body {
+    background-color: #050d18;
+    color: #ffffff;
+    font-family: "Biryani", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do Header */
+header {
+    background-color: #050d18;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    
+    color: #0d0d0d;
+}
+
+/* Estilos da seção de boas-vindas */
+.welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 80px;
+    margin-top: 60px;
+}
+
+.image {
+    flex: 0 1 300px; 
+    max-width: 500px;
+    height: auto;
+}
+
+.image img {
+    width: 400px;
+}
+
+.texto {
+    max-width: 500px;
+    font-size: 20px;
+}
+
+.texto h1 {
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 70px;
+}
+
+.texto p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 200;
+}
+
+
+
+
+
+/* Configurações gerais */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    color: #fff;
+}
+
+/* Estilos do header */
+header {
+    background-color: #0a1a30;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+nav ul li a:hover {
+    color: #e3b341;
+}
+

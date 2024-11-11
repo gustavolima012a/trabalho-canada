@@ -1,0 +1,114 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tenor Sans", sans-serif;
+    color: #f0ebe1;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #050d18;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+/* Estilos do header */
+header {
+    padding: 20px 0;
+    padding-top: 20px;
+    height: 4rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    
+}
+
+nav ul li a:hover {
+    color: #e3b341;
+}
+
+/* Estilos da estrutura da página */
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.paisagem {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    height: 100%;
+}
+
+.paisagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    width: 60%;
+    padding-left: 8rem;
+}
+
+h1 {
+    font-family: "Biryani", sans-serif;
+    margin: 0;
+    text-align: left;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0;
+    line-height: 1.8;
+}
+
+header{
+    background-color: #0a1a30;
+}
+
+
+
+
+
+

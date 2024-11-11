@@ -1,0 +1,106 @@
+body {
+    background-color: #050d18;
+    color: #ffffff;
+    font-family: "Biryani", serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.História {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    text-align: left;
+}
+
+h1 {
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    color: #fff;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-weight: 200;
+    color: #ccc; /* Cor de texto suave para contraste */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #0a1a30;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Alinha a imagem ao centro do cabeçalho */
+    align-items: center;     /* Alinha verticalmente a imagem */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e3b341; /* Cor de destaque ao passar o mouse */
+}
+
+.historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo da imagem no cabeçalho */
+header img {
+    width: 30px; /* Ajuste de tamanho da imagem */
+    height: auto;
+    display: block; /* Garante que a imagem seja tratada como bloco */
+    margin: 0 auto; /* Garante o alinhamento horizontal ao centro */
+}
+img {
+    width: 25rem; /* Reduzindo a largura da imagem */
+    height: auto;
+    max-width: 100%;
+    border-radius: 2rem;
+    margin-top: 80px; /* Adiciona espaço para não sobrepor o cabeçalho fixo */
+    display: block; /* Garante que a imagem seja tratada como bloco */
+    margin: 0 auto; /* Garante o alinhamento horizontal ao centro */
+}

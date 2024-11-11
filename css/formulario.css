@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #050d18;
+  }
+  
+  .feedback-form {
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    
+    box-shadow: 0 4px 8px #7caaff33;
+  }
+  
+  .feedback-form h2 {
+    margin-top: 0;
+  }
+  
+  .feedback-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .feedback-form input[type="text"],
+  .feedback-form input[type="email"],
+  .feedback-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  
+  .feedback-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+  }  
+
+  /* Estilos para o cabeçalho */
+header {
+    background-color: #0a1a30;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Alinha a imagem ao centro do cabeçalho */
+    align-items: center;     /* Alinha verticalmente a imagem */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e3b341; /* Cor de destaque ao passar o mouse */
+}
+
+.historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo da imagem no cabeçalho */
+header img {
+    width: 30px; /* Ajuste de tamanho da imagem */
+    height: auto;
+    display: block; /* Garante que a imagem seja tratada como bloco */
+    margin: 0 auto; /* Garante o alinhamento horizontal ao centro */
+}
+img {
+    width: 25rem; /* Reduzindo a largura da imagem */
+    height: auto;
+    max-width: 100%;
+    border-radius: 2rem;
+    margin-top: 80px; /* Adiciona espaço para não sobrepor o cabeçalho fixo */
+    display: block; /* Garante que a imagem seja tratada como bloco */
+    margin: 0 auto; /* Garante o alinhamento horizontal ao centro */
+}
+
+  
